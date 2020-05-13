@@ -1,0 +1,166 @@
+objectName: 
+type: currentTime
+AttributeValue: """+data_e_hora_atuais+"""
+
+type: subschemaSubentry
+AttributeValue: CN=Aggregate,CN=Schema,CN=Configuration,DC="""+dominioA+""",DC="""+dominioB+""",DC="""+dominioC+"""
+
+type: dsServiceName
+AttributeValue: CN=NTDS Settings,CN=DC-01-CCT,CN=Servers,CN=CCT,CN=Sites,CN=Configuration,DC="""+dominioA+""",DC="""+dominioB+""",DC="""+dominioC+"""
+
+type: namingContexts
+AttributeValue: DC="""+dominioA+""",DC="""+dominioB+""",DC="""+dominioC+"""
+AttributeValue: CN=Configuration,DC="""+dominioA+""",DC="""+dominioB+""",DC="""+dominioC+"""
+AttributeValue: CN=Schema,CN=Configuration,DC="""+dominioA+""",DC="""+dominioB+""",DC="""+dominioC+"""
+AttributeValue: DC=DomainDnsZones,DC="""+dominioA+""",DC="""+dominioB+""",DC="""+dominioC+"""
+AttributeValue: DC=ForestDnsZones,DC="""+dominioA+""",DC="""+dominioB+""",DC="""+dominioC+"""
+
+type: defaultNamingContext
+AttributeValue: DC="""+dominioA+""",DC="""+dominioB+""",DC="""+dominioC+"""
+
+type: schemaNamingContext
+AttributeValue: CN=Schema,CN=Configuration,DC="""+dominioA+""",DC="""+dominioB+""",DC="""+dominioC+"""
+
+type: configurationNamingContext
+AttributeValue: CN=Configuration,DC="""+dominioA+""",DC="""+dominioB+""",DC="""+dominioC+"""
+
+type: rootDomainNamingContext
+AttributeValue: DC="""+dominioA+""",DC="""+dominioB+""",DC="""+dominioC+"""
+
+type: supportedControl
+OID: 1.2.840.113556.1.4.319 (pagedResultsControl)
+OID: 1.2.840.113556.1.4.801 (LDAP_SERVER_SD_FLAGS_OID)
+OID: 1.2.840.113556.1.4.473 (sortKeyList)
+OID: 1.2.840.113556.1.4.528 (LDAP_SERVER_NOTIFICATION_OID)
+OID: 1.2.840.113556.1.4.417 (LDAP_SERVER_SHOW_DELETED_OID)
+OID: 1.2.840.113556.1.4.619 (LDAP_SERVER_LAZY_COMMIT_OID)
+OID: 1.2.840.113556.1.4.841 (dirsync)
+OID: 1.2.840.113556.1.4.529 (LDAP_SERVER_EXTENDED_DN_OID)
+OID: 1.2.840.113556.1.4.805 (LDAP_SERVER_TREE_DELETE_OID)
+OID: 1.2.840.113556.1.4.521 (LDAP_SERVER_CROSSDOM_MOVE_TARGET_OID)
+OID: 1.2.840.113556.1.4.970 (None)
+OID: 1.2.840.113556.1.4.1338 (LDAP_SERVER_VERIFY_NAME_OID)
+OID: 1.2.840.113556.1.4.474 (sortResult)
+OID: 1.2.840.113556.1.4.1339 (LDAP_SERVER_DOMAIN_SCOPE_OID)
+OID: 1.2.840.113556.1.4.1340 (LDAP_SERVER_SEARCH_OPTIONS_OID)
+OID: 1.2.840.113556.1.4.1413 (LDAP_SERVER_PERMISSIVE_MODIFY_OID)
+OID: 2.16.840.1.113730.3.4.9 (VLV Request LDAPv3 control)
+OID: 2.16.840.1.113730.3.4.10 (VLV Response LDAPv3 control)
+OID: 1.2.840.113556.1.4.1504 (LDAP_SERVER_ASQ_OID)
+OID: 1.2.840.113556.1.4.1852 (LDAP_SERVER_QUOTA_CONTROL_OID)
+OID: 1.2.840.113556.1.4.802 (LDAP_SERVER_RANGE_OPTION_OID)
+OID: 1.2.840.113556.1.4.1907 (LDAP_SERVER_SHUTDOWN_NOTIFY_OID)
+OID: 1.2.840.113556.1.4.1948 (LDAP_SERVER_RANGE_RETRIEVAL_NOERR_OID)
+OID: 1.2.840.113556.1.4.1974 (ISO assigned OIDs, USA.113556.1.4.1974)
+OID: 1.2.840.113556.1.4.1341 (ISO assigned OIDs, USA.113556.1.4.1341)
+OID: 1.2.840.113556.1.4.2026 (ISO assigned OIDs, USA.113556.1.4.2026)
+OID: 1.2.840.113556.1.4.2064 (ISO assigned OIDs, USA.113556.1.4.2064)
+OID: 1.2.840.113556.1.4.2065 (ISO assigned OIDs, USA.113556.1.4.2065)
+OID: 1.2.840.113556.1.4.2066 (ISO assigned OIDs, USA.113556.1.4.2066)
+OID: 1.2.840.113556.1.4.2090 (ISO assigned OIDs, USA.113556.1.4.2090)
+OID: 1.2.840.113556.1.4.2205 (ISO assigned OIDs, USA.113556.1.4.2205)
+OID: 1.2.840.113556.1.4.2204 (ISO assigned OIDs, USA.113556.1.4.2204)
+OID: 1.2.840.113556.1.4.2206 (ISO assigned OIDs, USA.113556.1.4.2206)
+OID: 1.2.840.113556.1.4.2211 (ISO assigned OIDs, USA.113556.1.4.2211)
+OID: 1.2.840.113556.1.4.2239 (ISO assigned OIDs, USA.113556.1.4.2239)
+OID: 1.2.840.113556.1.4.2255 (ISO assigned OIDs, USA.113556.1.4.2255)
+OID: 1.2.840.113556.1.4.2256 (ISO assigned OIDs, USA.113556.1.4.2256)
+
+type: supportedLDAPVersion
+AttributeValue: 3
+AttributeValue: 2
+
+type: supportedLDAPPolicies
+AttributeValue: MaxPoolThreads
+AttributeValue: MaxPercentDirSyncRequests
+AttributeValue: MaxDatagramRecv
+AttributeValue: MaxReceiveBuffer
+AttributeValue: InitRecvTimeout
+AttributeValue: MaxConnections
+AttributeValue: MaxConnIdleTime
+AttributeValue: MaxPageSize
+AttributeValue: MaxBatchReturnMessages
+AttributeValue: MaxQueryDuration
+AttributeValue: MaxTempTableSize
+AttributeValue: MaxResultSetSize
+AttributeValue: MinResultSets
+AttributeValue: MaxResultSetsPerConn
+AttributeValue: MaxNotificationPerConn
+AttributeValue: MaxValRange
+AttributeValue: MaxValRangeTransitive
+AttributeValue: ThreadMemoryLimit
+AttributeValue: SystemMemoryLimitPercent
+
+type: highestCommittedUSN
+AttributeValue: """+highestCommitted+"""
+
+type: supportedSASLMechanisms
+AttributeValue: GSSAPI
+AttributeValue: GSS-SPNEGO
+AttributeValue: EXTERNAL
+AttributeValue: DIGEST-MD5
+
+type: dnsHostName
+AttributeValue: TESTE-01-TESTE.corp.udesc.br
+
+type: ldapServiceName
+AttributeValue: corp.udesc.br:teste-01-teste$@CORP.UDESC.BR
+
+type: serverName
+AttributeValue: CN=TESTE-01-TESTE,CN=Servers,CN=CCT,CN=Sites,CN=Configuration,DC="""+dominioA+""",DC="""+dominioB""",DC="""+dominioC+"""
+
+type: supportedCapabilities
+OID: 1.2.840.113556.1.4.800 (LDAP_CAP_ACTIVE_DIRECTORY_OID)
+OID: 1.2.840.113556.1.4.1670 (LDAP_CAP_ACTIVE_DIRECTORY_V51_OID)
+OID: 1.2.840.113556.1.4.1791 (LDAP_CAP_ACTIVE_DIRECTORY_LDAP_INTEG_OID)
+OID: 1.2.840.113556.1.4.1935 (ISO assigned OIDs, USA.113556.1.4.1935)
+OID: 1.2.840.113556.1.4.2080 (ISO assigned OIDs, USA.113556.1.4.2080)
+OID: 1.2.840.113556.1.4.2237 (ISO assigned OIDs, USA.113556.1.4.2237)
+
+type: isSynchronized
+AttributeValue: TRUE
+
+type: isGlobalCatalogReady
+AttributeValue: TRUE
+
+type: domainFunctionality
+AttributeValue: 6
+
+type: forestFunctionality
+AttributeValue: 6
+
+type: domainControllerFunctionality
+AttributeValue: 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

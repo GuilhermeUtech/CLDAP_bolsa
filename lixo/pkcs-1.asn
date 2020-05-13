@@ -1,0 +1,17 @@
+PKCS-1 {iso(1) member(2) us(840) rsadsi(113549) pkcs(1) pkcs-1(1) modules(0) pkcs-1(1)}
+
+DEFINITIONS EXPLICIT TAGS ::= BEGIN
+    LDAPMessage ::= SEQUENCE {
+            messageID       INTEGER,
+            protocolOp      CHOICE {
+                SearchResultEntry ::= [APPLICATION 4] SEQUENCE {
+                    objectName      OCTET STRING,
+                    attributes      SEQUENCE OF SEQUENCE {
+                        type    OCTET STRING,
+                        vals    SET OF OCTET STRING
+                    }
+                }
+            }
+    }    
+END
+
